@@ -199,8 +199,7 @@ function renderCards(data) {
 			<div class="card" data-category="${good.category}">
 				${good.sale ? '<div class="card-sale">🔥Hot Sale🔥</div>': ''}
 				  <div class="card-img-wrapper">
-				  	<span class="card-img-top"
-				  	<style="background-image: url('${good.img}')"></span>
+				  	<span class="card-img-top" style="background-image: url('${good.img}')"></span>
 					</div>
 					<div class="card-body justify-content-between">
 				  	<div class="card-price" style="${good.sale ? 'color:red' : ''}">${good.price} ₽</div>
